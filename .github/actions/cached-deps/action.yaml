@@ -1,11 +1,11 @@
 name: 'Get and cache dependencies'
 description: 'Get the dependencies and cache them.'
-input:
+inputs:
   caching:
     description: 'Whether to cache dependencies or not.'
     required: false
     default: 'true'
-output:
+outputs:
   used-cache:
     description: 'Whether cached was used.'
     value: false
