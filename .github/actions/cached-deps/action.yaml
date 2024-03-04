@@ -8,7 +8,7 @@ input:
 output:
   used-cache:
     description: 'Whether cached was used.'
-    value: 'false'
+    value: false
 runs:
   using: 'composite'
   steps:
